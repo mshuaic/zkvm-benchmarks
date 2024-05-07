@@ -33,6 +33,12 @@ The benchmark results should be outputted in CSV form in `benchmark_outputs`.
 
 To run an individual benchmark run `make bench-jolt`, `make bench-risczero` or `make bench-sp1`.
 
+## testbed specification
+- AMD Ryzen 7 5800X 8-Core @ 16x 3.8GHz CPU with 100 GB RAM in WSL2 Ubuntu 22.04.3 LTS in Windows version: 10.0.22631.3447
+- SP1 version commit: 10cc576 @2024-05-06
+- Risc0 verison: v0.21.0 @2024-03-12
+- Jolt version commit: 58d3f7ff614e5cd716310d27bab2c05ef3a847c2 @2024-04-09
+
 
 ## Disclaimer
 
